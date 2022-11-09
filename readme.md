@@ -1,8 +1,8 @@
 # Quick snippet runner and saver
 
 ## Why?
-I needed a tool for teaching a JS class, that is relatively useful, and has a feature of saving multiple snippets quickly into multiple folders that I can later share with the class in separate repos - after 3hrs we are here
 
+I needed a tool for teaching a JS class, that is relatively useful, and has a feature of saving multiple snippets quickly into multiple folders that I can later share with the class in separate repos - after 3hrs we are here
 
 ## how it looks?
 
@@ -13,12 +13,21 @@ About something like this:
 ## how to run
 
 ```
-1. go to /be folder, and run npm install
+1. go to /be (cd be) folder, and run npm install
 2. npm run start in the /be folder
 3. go to localhost:3000
 ```
 
+/musisz wejść do katalogu /be czyli na początku wpisz komendę
+cd be
+dopiero później instalujesz
+npm install
+a na koniec uruchamiasz
+npm run start
+te dwie komendy npm muszą być wykonane w katologu /be /
+
 ## UI
+
 - bottom part is console, run a snippet with `command+enter (macos)` or `shift+enter (windows)`, or `command+R` / `ctrl+R`
 - you will see a code+result with the execution time on the top
 - on `command+s` or `ctrl+s` you save the snippet to the currently typed folder (top right input), default snippet-folder, does support nested paths
@@ -42,6 +51,7 @@ console.log(x);
 - there's no back button in folder list because I'm lazy
 
 ## general notes
+
 - timeout,interval function etc. don't currently work
 - you can use console.log() or log() to make results appear in the result box
 - this could use a major refactor - pending
@@ -53,12 +63,15 @@ console.log(x);
 - yes it's vanilla js, I don't see a point for a framework here
 
 ## libs used
+
 - [ACE Editor](https://github.com/ajaxorg/ace) - for all code highlight and editing, cool stuff
 - express - for hosting statics
 - socket.io - for communication because it's nicer than REST
 
 ## why name tho
+
 [I can't believe it's not console.log](https://www.youtube.com/watch?v=e33SNyaXNsk)
 
 ## what can I do with it
+
 it's free real estate, do whatever, if you want you can credit me
