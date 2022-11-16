@@ -26,6 +26,9 @@ a na koniec uruchamiasz
 npm run start
 te dwie komendy npm muszą być wykonane w katologu /be /
 
+Wpisujemy w przeglądarce w pasku adresu:
+http://localhost:3000/
+
 ## UI
 
 - bottom part is console, run a snippet with `command+enter (macos)` or `shift+enter (windows)`, or `command+R` / `ctrl+R`
